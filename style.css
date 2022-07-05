@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:wght@100&family=The+Nautigal:wght@700&display=swap');
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'The Nautigal', cursive;
+    background-color: lightpink;
+    height: 100%;
+    width: 100%;
+}
+#container{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+#vegsalad{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: oblique;
+    font-family: monospace;
+    position: relative;
+    color: darkgreen;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px darkgreen,
+        0 0 20px darkgreen,
+        0 0 40px darkgreen,
+        0 0 80px darkgreen,
+        0 0 160px darkgreen;
+    }
+}
+#vegetableSaladImage{
+    margin-top: 20px;
+}
+#benefits{
+    font-size: 8vh;
+    font-weight: 1500;
+    color: darkgreen;
+}
+#benefitsParagraph{
+    font-size: 5vh;
+    font-weight: 600;
+}
+#steps{
+    font-size: 8vh;
+    font-weight: 1500;
+    color: darkgreen;
+}
+#stepforVegetableSalad{
+    font-size: 5vh;
+    font-weight: 600;
+}
+#footerText{
+    font-size: 5vh;
+    font-weight: 600;
+}
